@@ -10,7 +10,7 @@ Following the instructions, I didn't change the frontend. I just relocated the 2
 
 Aside from the root path corresponding to the frontend, the backend is a very basic API with the requested endpoints.
 
-The backend uses TypeScript to help in the development process.
+The backend uses TypeScript to improve the development process.
 
 To install all the dependencies, you have to first run:
 
@@ -18,7 +18,7 @@ To install all the dependencies, you have to first run:
 npm install
 ```
 
-Then you ca run the server with the following:
+Then you can run the server with the following:
 
 ```sh
 npm start
