@@ -1,0 +1,42 @@
+{
+  "name": "palindrome-webservice",
+  "version": "1.0.0",
+  "description": "Palindrome webservice for the Supersolid technical assessment",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/main.ts",
+    "start:dev": "nodemon",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LandazuriPaul/palindrome.git"
+  },
+  "author": "Paul Landázuri",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.0.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/hapi__joi": "^16.0.6",
+    "@types/jest": "^24.9.0",
+    "@types/supertest": "^2.0.8",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.3.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}
